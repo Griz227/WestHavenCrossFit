@@ -1,0 +1,86 @@
+nav {
+    display: flex;
+    flex-direction: row;
+    align-content: flex-end;
+    width: 100%;
+}
+
+li {
+    display: inline;
+    padding: 5px;
+    margin: 5px;
+
+}
+nav img {
+    height: 50px;
+    padding: 5px;
+    margin-left: 25px;
+
+}
+.banner {
+    text-align: center;
+}
+.banner img {
+    margin: 50px;
+}
+.main {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    margin: 50px;
+
+}
+.main_left {
+    display: flex;
+    flex-direction: column;
+    line-height: 5px;
+    text-align: center;
+    padding: 10px;
+
+}
+.main a {
+    padding: 30px;
+}
+.coaches {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    margin-bottom: 50px;
+    margin-left: 50px;
+    margin-right: 50px;
+}
+h2 {
+    text-align: center;
+}
+.coaches img {
+    border-radius: 90px;
+}
+.coaches p {
+    text-align: center;
+}
+.dustin {
+    width: 220px;
+    height: 146px;
+    padding: 5px;
+}
+.lindsay {
+    width: 220px;
+    height: 146px;
+    padding: 5px;
+}
+.logan {
+    width: 220px;
+    height: 146px;
+    padding: 5px;
+}
+.mike {
+    width: 220px;
+    height: 146px;
+    padding: 5px;
+}
+.schedule {
+
+}
+table, td {
+    border: solid 1px black;
+}
