@@ -1,33 +1,46 @@
 nav {
     display: flex;
     flex-direction: row;
-    align-content: flex-end;
     width: 100%;
+    background-color: #7E9DAB;
+    height: 80px;
+    position: fixed;
+    z-index: 1;
+    
+}
+ul {
+    display: flex;
+    justify-content: right;
 }
 
 li {
     display: inline;
-    padding: 5px;
-    margin: 5px;
+    padding: 15px;
+    margin: 15px;
+    align-content: flex-end;
 
 }
 nav img {
+    display: flex;
     height: 50px;
-    padding: 5px;
-    margin-left: 25px;
+    justify-content: left;
+    border-radius: 50px;
 
 }
 .banner {
     text-align: center;
 }
 .banner img {
-    margin: 50px;
+    margin-top: 100px;
+    margin-bottom: 50px;
 }
 .main {
     display: flex;
     flex-direction: row;
     justify-content: space-around;
     margin: 50px;
+    background-color: #7E9DAB;
+    padding: 50px;
 
 }
 .main_left {
@@ -36,6 +49,7 @@ nav img {
     line-height: 5px;
     text-align: center;
     padding: 10px;
+    
 
 }
 .main a {
@@ -51,12 +65,15 @@ nav img {
 }
 h2 {
     text-align: center;
+    font-weight: 700;
+    text-transform: uppercase;
 }
 .coaches img {
     border-radius: 90px;
 }
 .coaches p {
     text-align: center;
+    
 }
 .dustin {
     width: 220px;
@@ -79,8 +96,37 @@ h2 {
     padding: 5px;
 }
 .schedule {
+    margin-left: auto;
+    margin-right: auto;
+}
+table, th, td {
+    border: 1px solid black;
+    border-collapse: collapse;
+}
+table {
+    width: 80%;
+    
+}
+tr:nth-child(even) {background-color: cadetblue;}
+th {
+    font-weight: 700;
+}
 
+td {
+    height: 35px;
+    text-align: center;
 }
-table, td {
-    border: solid 1px black;
+.heading {
+    font-weight: 700;
+    text-transform: uppercase;
+    text-align: center;
 }
+footer img {
+    height: 50px;
+    padding: 5px;
+    margin-left: 25px;
+}
+
+
+   
+
