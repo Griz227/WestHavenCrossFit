@@ -26,22 +26,27 @@ li {
     display: inline;
     padding: 25px;
     margin: 5px;
-    font-size: 20px;
+    font-size: 18px;
     height: 55px;
     text-transform: uppercase;
-    background-color: #029ae0;
-   
-    
-}
-a {
     color: black;
+    text-decoration: none;   
+    background-color: white;
+}
+a:-webkit-any-link {
     text-decoration: none;
+}
 
-    
-    
-    
-
-
+a:hover li {
+    color: #029ae0;
+    font-size: 20px;
+    cursor: pointer;
+    transition: 0.1ms ease-in-out;
+}
+a:active li {
+    text-decoration: none;
+    margin-top: 24px;
+    margin-bottom: 14px;
 }
 
 .logo {
