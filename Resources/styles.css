@@ -1,4 +1,7 @@
 
+* {
+    font-family: 'poppins', sans-serif;
+}
 nav {
     display: flex;
     flex-direction: row;
@@ -61,16 +64,18 @@ a:active li {
 }
 .banner img {
     margin-top: 200px;
-    margin-bottom: 50px;
+    margin-bottom: 0px;
     width: 100%;
 }
 .main {
     display: flex;
     flex-direction: row;
     justify-content: space-around;
-    margin: 50px;
-    background-color: #7E9DAB;
-    padding: 50px;
+    padding-top: 100px;
+    padding-bottom: 100px;
+    width: 100%;
+    background-color: #016694;
+    overflow: hidden;
 
 }
 .main_left {
@@ -79,17 +84,26 @@ a:active li {
     line-height: 5px;
     text-align: center;
     padding: 10px;
-    
+    justify-content: center;
 
+}
+.main_left p {
+    padding-bottom: 10px;
 }
 .main a {
     padding: 30px;
+    font-size: 18px;
+    border: 1px solid black;
+    color: #029ae0;
+    background-color: white;
+    opacity: 0.75;
 }
 .coaches {
     display: flex;
     flex-direction: row;
     justify-content: center;
-    margin-bottom: 50px;
+    padding-top: 75px;
+    padding-bottom: 75px;
     margin-left: 50px;
     margin-right: 50px;
 }
@@ -97,9 +111,10 @@ h2 {
     text-align: center;
     font-weight: 700;
     text-transform: uppercase;
+    padding-top: 75px;
 }
 .coaches img {
-    border-radius: 90px;
+    border-radius: 10px;
 }
 .coaches p {
     text-align: center;
@@ -125,19 +140,28 @@ h2 {
     height: 146px;
     padding: 5px;
 }
+.bottom_section {
+    background-color:  #016694;
+}
 .schedule {
-    margin-left: auto;
-    margin-right: auto;
+    text-align: center;
+    justify-content: center;
+    align-content: center;
+    overflow: hidden;
+    
 }
 table, th, td {
     border: 1px solid black;
     border-collapse: collapse;
 }
 table {
-    width: 80%;
+    width: 90%;
+    margin: 100px;
+    
+    
     
 }
-tr:nth-child(even) {background-color: rgb(198, 215, 216);}
+tr:nth-child(even) {background-color: #6C8591;}
 th {
     font-weight: 700;
 }
@@ -151,10 +175,19 @@ td {
     text-transform: uppercase;
     text-align: center;
 }
+footer {
+    display: flex;
+    flex-direction: row;
+    font-size: 12px;
+    
+}
 footer img {
     height: 50px;
     padding: 5px;
     margin-left: 25px;
+}
+footer p {
+    padding: 5px;
 }
 
 
