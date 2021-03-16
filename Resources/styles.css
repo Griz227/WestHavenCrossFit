@@ -126,7 +126,7 @@ h2 {
 }
 .coach {
     display: flex;
-    flex-direction: column;
+    flex-direction: row;
     justify-content: center;
     align-content: center;
     width: 25%;
@@ -200,28 +200,22 @@ footer p {
     padding: 0.3125rem;
 }
 @media only screen and (max-width: 480px){
-        * {
-        font-size: 0.75rem; }
-
-        .coaches img {
-        width: 100%;
-        height: auto;
-        margin: 0rem;}
-         
+        
         .coach {
-        width: 100%;
-        height: auto;}
+            width: 100%;
+            height: auto;
+        }
     
-    
-        nav {
-        display: inline-flex;}
 
         .banner img {
-        display: none;
+             display: none;
         }
 
         table {
-        overflow: scroll;
+            align-content: flex-start;
+        }
+        nav {
+            position: relative;
         }
 }
     
