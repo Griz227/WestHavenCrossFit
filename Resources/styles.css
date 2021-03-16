@@ -1,6 +1,7 @@
 
 * {
     font-family: 'poppins', sans-serif;
+    
 }
 nav {
     display: flex;
@@ -10,27 +11,28 @@ nav {
     z-index: 1;
     justify-content:space-evenly;
     
+    
 }
 ul {
     display: flex;
     display: inline;
     flex-direction: row;
-    padding: 0px;
+    padding: 0rem;
     height: 30px;
-    padding-top: 75px;
-    padding-bottom: 75px;
+    padding-top: 4.68rem;
+    padding-bottom: 4.68rem;
     justify-content: center;
-    margin: 0px;
+    margin: 0rem;
     opacity: 0.75;
     width: 50%;
 }
 
 li {
     display: inline;
-    padding: 25px;
-    margin: 5px;
-    font-size: 18px;
-    height: 55px;
+    padding: 1.56rem;
+    margin: 0.3rem;
+    font-size: 1.125rem;
+    height: 3.4375rem;
     text-transform: uppercase;
     color: black;
     text-decoration: none;   
@@ -42,14 +44,13 @@ a:-webkit-any-link {
 
 a:hover li {
     color: #029ae0;
-    font-size: 20px;
+    font-size: 1.25rem;
     cursor: pointer;
     transition: 0.1ms ease-in-out;
 }
 a:active li {
     text-decoration: none;
-    margin-top: 24px;
-    margin-bottom: 14px;
+
 }
 
 .logo {
@@ -63,16 +64,16 @@ a:active li {
     text-align: center;
 }
 .banner img {
-    margin-top: 200px;
-    margin-bottom: 0px;
+    margin-top: 12.5rem;
+    margin-bottom: 0rem;
     width: 100%;
 }
 .main {
     display: flex;
     flex-direction: row;
     justify-content: space-around;
-    padding-top: 100px;
-    padding-bottom: 100px;
+    padding-top: 6.25rem;
+    padding-bottom: 6.25rem;
     width: 100%;
     background-color: #016694;
     overflow: hidden;
@@ -81,18 +82,18 @@ a:active li {
 .main_left {
     display: flex;
     flex-direction: column;
-    line-height: 5px;
+    line-height: 0.3125rem;
     text-align: center;
-    padding: 10px;
+    padding: 0.625rem;
     justify-content: center;
 
 }
 .main_left p {
-    padding-bottom: 10px;
+    padding-bottom: 0.625rem;
 }
 .main a {
-    padding: 30px;
-    font-size: 18px;
+    padding: 1.875rem;
+    font-size: 1.125rem;
     border: 1px solid black;
     color: #029ae0;
     background-color: white;
@@ -102,44 +103,46 @@ a:active li {
     display: flex;
     flex-direction: row;
     justify-content: center;
-    padding-top: 75px;
-    padding-bottom: 75px;
-    margin-left: 50px;
-    margin-right: 50px;
+    padding-top: 4.6875rem;
+    padding-bottom: 4.6875rem;
+    margin-left: 3.125rem;
+    margin-right: 3.125rem;
+    width: 100%;
 }
 h2 {
     text-align: center;
     font-weight: 700;
     text-transform: uppercase;
-    padding-top: 75px;
+    padding-top: 1.25rem;
+    padding-bottom: 1.25rem;
+    margin-top: 0rem;
 }
 .coaches img {
-    border-radius: 10px;
+    border-radius: 0.625rem;
 }
-.coaches p {
-    text-align: center;
-    
+.coach {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-content: center;
+    width: 25%;
 }
 .dustin {
-    width: 220px;
-    height: 146px;
-    padding: 5px;
+    width: 65%;
+    height: auto;   
 }
 .lindsay {
-    width: 220px;
-    height: 146px;
-    padding: 5px;
+    width: 65%;
+    height: auto; 
 }
 .logan {
-    width: 220px;
-    height: 146px;
-    padding: 5px;
+    width: 65%;
+    height: auto; 
 }
 .mike {
-    width: 220px;
-    height: 146px;
-    padding: 5px;
-}
+    width: 65%;
+    height: auto;
+}   
 .bottom_section {
     background-color:  #016694;
 }
@@ -147,8 +150,11 @@ h2 {
     text-align: center;
     justify-content: center;
     align-content: center;
-    overflow: hidden;
-    
+    width: 100%;
+}
+.schedule h2 {
+    margin-top: 0rem;
+    padding-top: 2.5rem;
 }
 table, th, td {
     border: 1px solid black;
@@ -156,16 +162,14 @@ table, th, td {
 }
 table {
     width: 90%;
-    margin: 100px;
-    
-    
-    
+    margin: 6.25rem; 
+    margin-bottom: 1rem;   
+    padding-bottom: 2rem;
 }
 tr:nth-child(even) {background-color: #6C8591;}
 th {
     font-weight: 700;
 }
-
 td {
     height: 35px;
     text-align: center;
@@ -178,18 +182,33 @@ td {
 footer {
     display: flex;
     flex-direction: row;
-    font-size: 12px;
+    font-size: 0.75rem;
+    width: 100%;
+    height: auto;
     
 }
 footer img {
-    height: 50px;
-    padding: 5px;
-    margin-left: 25px;
+    height: 3.125em;
+    padding: 0.3125rem;
+    margin-left: 1.25rem;
 }
 footer p {
-    padding: 5px;
+    padding: 0.3125rem;
 }
+@media only screen and (max-width: 470px){
+        * {
+        font-size: 0.75rem; }
 
-
+    .coach {
+        width: 100%;
+        margin: 0rem;
+    }
+    
+    nav {
+        position: relative;
+        flex-direction: column;
+    }
+}
+    
    
 
