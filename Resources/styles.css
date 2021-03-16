@@ -61,6 +61,8 @@ a:active li {
 }
 
 .banner {
+    display: flex;
+    flex-direction: row;
     text-align: center;
 }
 .banner img {
@@ -204,13 +206,19 @@ footer p {
         height: auto;
         margin: 0rem;
     }
+    .coach {
+        width: 100%;
+        height: auto;
+    }
     
     nav {
-        position: relative;
-        flex-direction: column;
+        display: inline-flex;
     }
     .banner img {
         display: none;
+    }
+    table {
+        overflow: scroll;
     }
 }
     
