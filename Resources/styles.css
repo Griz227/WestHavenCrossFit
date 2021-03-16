@@ -200,7 +200,7 @@ footer p {
         font-size: 0.75rem; }
 
     .coaches img {
-        max-width: 100%;
+        width: 100%;
         height: auto;
         margin: 0rem;
     }
