@@ -37,6 +37,7 @@ li {
     color: black;
     text-decoration: none;   
     background-color: white;
+    flex-shrink: 1;
 }
 a:-webkit-any-link {
     text-decoration: none;
@@ -55,9 +56,10 @@ a:active li {
 
 .logo {
     display: flex;
-    height: 157.5px;
-    width: 425px;
+    height: auto;
+    width: 30%;
     opacity: 0.75;
+
 }
 
 .banner {
@@ -213,9 +215,11 @@ footer p {
     
         nav {
         display: inline-flex;}
+
         .banner img {
         display: none;
         }
+
         table {
         overflow: scroll;
         }
