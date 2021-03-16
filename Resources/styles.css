@@ -57,7 +57,7 @@ a:active li {
 
 .logo {
     display: flex;
-    height: auto;
+
     width: 30%;
     opacity: 0.75;
 
@@ -127,10 +127,11 @@ h2 {
 }
 .coach {
     display: flex;
-    flex-direction: row;
+    flex-direction: column;
     justify-content: center;
     align-content: center;
     width: 25%;
+    flex-shrink: 1;
 }
 .dustin {
     width: 65%;
@@ -200,7 +201,19 @@ footer img {
 footer p {
     padding: 0.3125rem;
 }
-@media only screen and (max-width: 480px){
-    [class*="col-"] {
-        width: 100%;       
+@media only screen and (max-width: 960px) {
+    nav {
+        padding: 0;
+    }
+
+}
+
+@media only screen and (max-width: 480px) {
+    nav {
+        padding: 0;
+    }
+
+    .banner img {
+        display: none;
+    }
 }
