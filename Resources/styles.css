@@ -201,25 +201,24 @@ footer p {
         * {
         font-size: 0.75rem; }
 
-    .coaches img {
+        .coaches img {
         width: 100%;
         height: auto;
-        margin: 0rem;
-    }
-    .coach {
+        margin: 0rem;}
+         
+        .coach {
         width: 100%;
-        height: auto;
-    }
+        height: auto;}
     
-    nav {
-        display: inline-flex;
-    }
-    .banner img {
+    
+        nav {
+        display: inline-flex;}
+        .banner img {
         display: none;
-    }
-    table {
+        }
+        table {
         overflow: scroll;
-    }
+        }
 }
     
    
